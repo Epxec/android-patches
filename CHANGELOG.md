@@ -1,3 +1,9 @@
+## [1.0.0-dev.3](https://github.com/Epxec/android-patches/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-09-04)
+
+### ✨ New Features
+
+* add "Remindio" patch ([6b57d96](https://github.com/Epxec/android-patches/commit/6b57d963494b2375cecd15e90a7ea0a1c850813c))
+
 ## [1.0.0-dev.2](https://github.com/Epxec/android-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-09-04)
 
 ### ✨ New Features
