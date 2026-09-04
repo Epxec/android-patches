@@ -11,12 +11,10 @@ object Constants {
         packageName = "com.notch.touch", 
         apkFileType = ApkFileType.XAPK, 
         appIconColor = 0xFF0045,
-        signatures = setOf(
-            "5011d7f93478422063d4b69b524494ec407445ba20b03b728f553b7a5e2d19be"
-        ),
         targets = listOf(
             AppTarget(
-                version = "2.1.7"
+                version = "2.1.7", 
+                versionCode = 117
             )
             
         )
@@ -33,6 +31,7 @@ object Constants {
         targets = listOf(
             AppTarget(
                 version = "3.3.2",
+                versionCode = 332
             )
         )
     )
