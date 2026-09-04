@@ -1,10 +1,8 @@
-# 👋🧩 Morphe Patches template
-
-Template repository for Morphe Patches.
+# 👋🧩 Epxec Patches
 
 ## ❓ About
 
-Patches for apps I like.
+Patches for useful paid apps
 
 <!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
 
@@ -88,4 +86,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Epxec Patches are licensed under the [GNU General Public License v3.0](LICENSE)
