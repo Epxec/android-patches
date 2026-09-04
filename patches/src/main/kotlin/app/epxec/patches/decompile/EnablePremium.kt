@@ -1,9 +1,9 @@
-package app.epxec.patches.touchthenotch
+package app.epxec.patches.decompile
 
 import app.morphe.patcher.patch.bytecodePatch
-import app.epxec.patches.shared.Constants.COMPATIBILITY_Touch_The_Notch
+import app.epxec.patches.shared.Constants.COMPATIBILITY_Decompile
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
-import app.epxec.patches.touchthenotch.Fingerprints.TouchTheNotchPremiumFingerprint
+import app.epxec.patches.decompile.Fingerprints.DecompilePremiumFingerprint
 import app.morphe.patches.all.misc.fix.changepackageinstaller.changePackageInstallerPatch
 
 @Suppress("unused")
@@ -12,19 +12,17 @@ val enablePremiumPatch = bytecodePatch(
     description = "Enables the premium features of the app.",
     default = true
 ) {
-    compatibleWith(COMPATIBILITY_Touch_The_Notch)
+    compatibleWith(COMPATIBILITY_Decompile)
 
     dependsOn(changePackageInstallerPatch())
 
     execute {
-
-        val igetIndex = TouchTheNotchPremiumFingerprint.instructionMatches[2].index
-
-        TouchTheNotchPremiumFingerprint.method.addInstructions(
-            igetIndex,
+        DecompilePremiumFingerprint.method.addInstructions(
+            0,
             """
-                const/4 v0, 0x1
+                const/4 p1, 0x1
             """
         )
     }
+
 }

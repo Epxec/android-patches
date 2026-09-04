@@ -18,4 +18,16 @@ object Constants {
         )
     )
 
+    val COMPATIBILITY_Decompile = Compatibility(
+        name = "Decompile",
+        packageName = "com.apktools.app.decompile",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF1234,
+        targets = listOf(
+            AppTarget(
+                version = "3.3.2",
+            )
+        )
+    )
+
 }
