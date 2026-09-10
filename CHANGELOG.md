@@ -1,3 +1,9 @@
+## [1.1.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-09-10)
+
+### ✨ New Features
+
+* add "Halo Reels Pro" VIP patch ([295698d](https://github.com/Epxec/android-patches/commit/295698d4ace4b0796544f36468d87fda24258176))
+
 ## 1.0.0 (2026-09-04)
 
 ### ✨ New Features
