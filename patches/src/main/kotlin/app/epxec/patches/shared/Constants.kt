@@ -46,4 +46,17 @@ object Constants {
         )
     )
 
+    val COMPATIBILITY_Haloreelspro = Compatibility(
+        name = "Halo Reels Pro",
+        packageName = "com.halo.reels.movie.fast.pro",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF1234,
+        targets = listOf(
+            AppTarget(
+                version = "1.1.0",
+                versionCode = 1100
+            )
+        )
+    )
+
 }
