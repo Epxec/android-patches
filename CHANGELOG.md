@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/Epxec/android-patches/compare/v1.2.0...v1.3.0) (2026-09-14)
+
+### ✨ New Features
+
+* add "Daylio" premium ([7e3d601](https://github.com/Epxec/android-patches/commit/7e3d6012cd5abefeeff0b853376b4cd8b0f84a8d))
+
 ## [1.3.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.2.0...v1.3.0-dev.1) (2026-09-14)
 
 ### ✨ New Features
