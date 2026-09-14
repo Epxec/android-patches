@@ -85,4 +85,17 @@ object Constants {
         )
     )
 
+    val COMPATIBILITY_XEQ = Compatibility(
+        name = "XEQ Equalizer",
+        packageName = "com.frack.xeq",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF1234,
+        targets = listOf(
+            AppTarget(
+                version = "38.7.0",
+                versionCode = 437
+            )
+        )
+    )
+
 }
