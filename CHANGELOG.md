@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/Epxec/android-patches/compare/v1.3.0...v1.4.0) (2026-09-14)
+
+### ✨ New Features
+
+* add "XEQ Equalizer" pro patch ([a115625](https://github.com/Epxec/android-patches/commit/a115625ba8fff9da0c7fd42ca949c70648ae300d))
+
 ## [1.4.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.3.0...v1.4.0-dev.1) (2026-09-14)
 
 ### ✨ New Features
