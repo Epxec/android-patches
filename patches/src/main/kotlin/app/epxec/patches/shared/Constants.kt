@@ -72,4 +72,17 @@ object Constants {
         )
     )
 
+    val COMPATIBILITY_Daylio = Compatibility(
+        name = "Daylio",
+        packageName = "net.daylio",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF1234,
+        targets = listOf(
+            AppTarget(
+                version = "1.69.2",
+                versionCode = 276
+            )
+        )
+    )
+
 }
