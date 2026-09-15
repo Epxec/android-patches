@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.4.0",
+  "version": "1.5.0-dev.1",
   "patches": [
     {
       "name": "Enable Premium",
@@ -91,6 +91,39 @@
                 "ARMEABI_V7A": 117,
                 "X86_64": 117,
                 "X86": 117
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Pro",
+      "description": "Enables Pro features.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.pittvandewitt.wavelet",
+          "name": "Wavelet",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#FF1234",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "26.05",
+              "versionCodes": {
+                "ARM64_V8A": 260508,
+                "ARMEABI_V7A": 260508,
+                "X86_64": 260508,
+                "X86": 260508
               },
               "isExperimental": false,
               "minSdk": null,
