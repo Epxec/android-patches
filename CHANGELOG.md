@@ -1,3 +1,9 @@
+## [1.5.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.4.0...v1.5.0-dev.1) (2026-09-15)
+
+### ✨ New Features
+
+* add "Wavelet" pro patch ([937c59a](https://github.com/Epxec/android-patches/commit/937c59a85fd3507f7f8c78bb43e18662e28ebe29))
+
 ## [1.4.0](https://github.com/Epxec/android-patches/compare/v1.3.0...v1.4.0) (2026-09-14)
 
 ### ✨ New Features
