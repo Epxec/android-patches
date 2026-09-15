@@ -98,4 +98,17 @@ object Constants {
         )
     )
 
+    val COMPATIBILITY_Wavelet = Compatibility(
+        name = "Wavelet",
+        packageName = "com.pittvandewitt.wavelet",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF1234,
+        targets = listOf(
+            AppTarget(
+                version = "26.05",
+                versionCode = 260508
+            )
+        )
+    )
+
 }
