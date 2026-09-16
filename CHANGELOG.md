@@ -1,3 +1,9 @@
+## [1.8.0](https://github.com/Epxec/android-patches/compare/v1.7.0...v1.8.0) (2026-09-16)
+
+### ✨ New Features
+
+* Vaulty Pro ([98090cb](https://github.com/Epxec/android-patches/commit/98090cb540d28b8abca2e940fbdd1d0163e5f2e8))
+
 ## [1.8.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.7.0...v1.8.0-dev.1) (2026-09-16)
 
 ### ✨ New Features
