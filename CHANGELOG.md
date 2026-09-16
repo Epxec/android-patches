@@ -1,3 +1,9 @@
+## [1.7.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.6.0...v1.7.0-dev.1) (2026-09-16)
+
+### ✨ New Features
+
+* Wallet premium ([a8450fe](https://github.com/Epxec/android-patches/commit/a8450fea7fc9ddef57b311532f80a3f65cc87ee1))
+
 ## [1.6.0](https://github.com/Epxec/android-patches/compare/v1.5.0...v1.6.0) (2026-09-15)
 
 ### ✨ New Features

@@ -124,4 +124,17 @@ object Constants {
         )
     ) 
 
+    val COMPATIBILITY_Wallet = Compatibility(
+        name = "Wallet",
+        packageName = "com.droid4you.application.wallet",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF1234,
+        targets = listOf(
+            AppTarget(
+                version = "9.3.10",
+                versionCode = 90175
+            )
+        )
+    ) 
+
 }
