@@ -137,4 +137,17 @@ object Constants {
         )
     ) 
 
+    val COMPATIBILITY_Vaulty = Compatibility(
+        name = "Vaulty",
+        packageName = "com.theronrogers.vaultyfree",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xFF1234,
+        targets = listOf(
+            AppTarget(
+                version = "26.09.09",
+                versionCode = 461225
+            )
+        )
+    ) 
+
 }
