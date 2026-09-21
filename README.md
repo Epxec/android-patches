@@ -193,3 +193,11 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 ## 📜 License
 
 Epxec Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+
+## Credits
+
+This project includes files copied from
+[BlazeFTL/FTL-Patches](https://github.com/BlazeFTL/FTL-Patches),
+licensed under the GNU General Public License v3.0.
+
+The original source files remain attributable to their respective authors.
