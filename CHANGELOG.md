@@ -1,3 +1,10 @@
+## [1.11.0-dev.4](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.3...v1.11.0-dev.4) (2026-09-25)
+
+### 🐛 Bug Fixes
+
+* update morphe-universal-loader version to 0.1.2 ([4f72889](https://github.com/Epxec/android-patches/commit/4f7288911c85270ab2a472a253ee6d86db11fa15))
+* update morphe-universal-loader version to 0.1.3 ([0eec76f](https://github.com/Epxec/android-patches/commit/0eec76f1f92d76bc23f80df6364dcaa032598820))
+
 ## [1.11.0-dev.3](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.2...v1.11.0-dev.3) (2026-09-25)
 
 ### 🐛 Bug Fixes
