@@ -5,6 +5,8 @@ import app.epxec.patches.shared.Constants.COMPATIBILITY_Todai
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.epxec.patches.todai.Fingerprints.TodaiPremiumFingerprint
 import app.morphe.patches.all.misc.fix.changepackageinstaller.changePackageInstallerPatch
+import app.epxec.patches.shared.hoodles.microG
+
 
 @Suppress("unused")
 val enableVipPatch = bytecodePatch(
@@ -14,7 +16,7 @@ val enableVipPatch = bytecodePatch(
 ) {
     compatibleWith(COMPATIBILITY_Todai)
 
-    dependsOn(changePackageInstallerPatch())
+    dependsOn(changePackageInstallerPatch(), microG)
 
     execute {
 
