@@ -1,3 +1,9 @@
+## [1.11.0-dev.7](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.6...v1.11.0-dev.7) (2026-09-25)
+
+### 🐛 Bug Fixes
+
+* wallet google login ([a743393](https://github.com/Epxec/android-patches/commit/a743393ce951a26a8e8ab886f22668ad3d9b5834))
+
 ## [1.11.0-dev.6](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.5...v1.11.0-dev.6) (2026-09-25)
 
 ### ✨ New Features
