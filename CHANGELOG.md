@@ -1,3 +1,9 @@
+## [1.11.0-dev.3](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.2...v1.11.0-dev.3) (2026-09-25)
+
+### 🐛 Bug Fixes
+
+* compiler issue on mobile phone ([156dafb](https://github.com/Epxec/android-patches/commit/156dafb75c7ed7f1118f3fec7a109e7e8c5d9b97))
+
 ## [1.11.0-dev.2](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.1...v1.11.0-dev.2) (2026-09-25)
 
 ### 🐛 Bug Fixes

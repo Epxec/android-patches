@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-25T12:53:29",
-  "description": "## [1.11.0-dev.2](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.1...v1.11.0-dev.2) (2026-09-25)\n\n### 🐛 Bug Fixes\n\n* format BLAZEFTL URL for better readability ([c0e324f](https://github.com/Epxec/android-patches/commit/c0e324f58abd96800c8b532134969d9114f08cf1))",
-  "download_url": "https://github.com/Epxec/android-patches/releases/download/v1.11.0-dev.2/patches-1.11.0-dev.2.mpp",
+  "created_at": "2026-09-25T13:33:37",
+  "description": "## [1.11.0-dev.3](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.2...v1.11.0-dev.3) (2026-09-25)\n\n### 🐛 Bug Fixes\n\n* compiler issue on mobile phone ([156dafb](https://github.com/Epxec/android-patches/commit/156dafb75c7ed7f1118f3fec7a109e7e8c5d9b97))",
+  "download_url": "https://github.com/Epxec/android-patches/releases/download/v1.11.0-dev.3/patches-1.11.0-dev.3.mpp",
   "signature_download_url": "",
-  "version": "1.11.0-dev.2"
+  "version": "1.11.0-dev.3"
 }
