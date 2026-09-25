@@ -37,7 +37,7 @@ patches {
 val patchListGeneratorClasspath = configurations.create("patchListGeneratorClasspath")
 
 dependencies {
-    implementation("app.epxec:morphe-universal-loader:0.1.1")
+    implementation("app.epxec:morphe-universal-loader:0.1.2")
     implementation(libs.morphe.patches.library)
     compileOnly(libs.gson)
     patchListGeneratorClasspath(libs.gson)
