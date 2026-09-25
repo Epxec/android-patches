@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-09-25T12:36:07",
-  "description": "## [1.11.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.10.0...v1.11.0-dev.1) (2026-09-25)\n\n### 🐛 Bug Fixes\n\n* improper kotlin files ([8945551](https://github.com/Epxec/android-patches/commit/894555170fa8a3554db5af3feb55fa88f935fa99))\n\n### ✨ New Features\n\n* better universal patch reference ([2e5c1cb](https://github.com/Epxec/android-patches/commit/2e5c1cbfb6d927c99a2e7d5a1892671c0c087996))",
-  "download_url": "https://github.com/Epxec/android-patches/releases/download/v1.11.0-dev.1/patches-1.11.0-dev.1.mpp",
+  "created_at": "2026-09-25T12:53:29",
+  "description": "## [1.11.0-dev.2](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.1...v1.11.0-dev.2) (2026-09-25)\n\n### 🐛 Bug Fixes\n\n* format BLAZEFTL URL for better readability ([c0e324f](https://github.com/Epxec/android-patches/commit/c0e324f58abd96800c8b532134969d9114f08cf1))",
+  "download_url": "https://github.com/Epxec/android-patches/releases/download/v1.11.0-dev.2/patches-1.11.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.11.0-dev.1"
+  "version": "1.11.0-dev.2"
 }

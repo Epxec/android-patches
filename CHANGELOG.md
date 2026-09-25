@@ -1,3 +1,9 @@
+## [1.11.0-dev.2](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.1...v1.11.0-dev.2) (2026-09-25)
+
+### 🐛 Bug Fixes
+
+* format BLAZEFTL URL for better readability ([c0e324f](https://github.com/Epxec/android-patches/commit/c0e324f58abd96800c8b532134969d9114f08cf1))
+
 ## [1.11.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.10.0...v1.11.0-dev.1) (2026-09-25)
 
 ### 🐛 Bug Fixes
