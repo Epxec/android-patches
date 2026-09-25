@@ -1,3 +1,9 @@
+## [1.11.0-dev.6](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.5...v1.11.0-dev.6) (2026-09-25)
+
+### ✨ New Features
+
+* todaii google login ([5f0ff95](https://github.com/Epxec/android-patches/commit/5f0ff955338527fb02ac170fbce13d32f97d29e4))
+
 ## [1.11.0-dev.5](https://github.com/Epxec/android-patches/compare/v1.11.0-dev.4...v1.11.0-dev.5) (2026-09-25)
 
 ### 🐛 Bug Fixes
