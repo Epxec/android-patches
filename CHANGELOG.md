@@ -1,3 +1,13 @@
+## [1.11.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.10.0...v1.11.0-dev.1) (2026-09-25)
+
+### 🐛 Bug Fixes
+
+* improper kotlin files ([8945551](https://github.com/Epxec/android-patches/commit/894555170fa8a3554db5af3feb55fa88f935fa99))
+
+### ✨ New Features
+
+* better universal patch reference ([2e5c1cb](https://github.com/Epxec/android-patches/commit/2e5c1cbfb6d927c99a2e7d5a1892671c0c087996))
+
 ## [1.10.0](https://github.com/Epxec/android-patches/compare/v1.9.0...v1.10.0) (2026-09-24)
 
 ### ✨ New Features
