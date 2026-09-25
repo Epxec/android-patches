@@ -11,7 +11,7 @@ import app.epxec.patches.shared.hoodles.microG
 @Suppress("unused")
 val enableVipPatch = bytecodePatch(
     name = "Enable Premium",
-    description = "For premium patch to work, you need to login using your email and password (not Google)",
+    description = "Enables premium",
     default = true
 ) {
     compatibleWith(COMPATIBILITY_Todai)
