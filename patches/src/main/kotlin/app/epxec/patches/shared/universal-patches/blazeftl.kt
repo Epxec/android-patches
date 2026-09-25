@@ -1,5 +1,3 @@
-Spoof App Signature
-
 package app.epxec.patches.shared.blazeftl
 
 import app.epxec.morphe.universal.getUniversalPatch
