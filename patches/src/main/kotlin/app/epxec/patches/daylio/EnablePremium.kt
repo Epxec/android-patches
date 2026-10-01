@@ -8,6 +8,7 @@ import app.epxec.patches.shared.Constants.COMPATIBILITY_Daylio
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.all.misc.fix.changepackageinstaller.changePackageInstallerPatch
+import app.epxec.patches.shared.hoodles.microG
 
 @Suppress("unused")
 val enablePremiumPatch = bytecodePatch(
@@ -17,7 +18,7 @@ val enablePremiumPatch = bytecodePatch(
 ) {
     compatibleWith(COMPATIBILITY_Daylio)
 
-    dependsOn(changePackageInstallerPatch())
+    dependsOn(changePackageInstallerPatch(), microG)
 
     execute {
         // ── Patch 1: k4() ────────────────────────────────────────────────────
