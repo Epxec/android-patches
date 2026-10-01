@@ -1,3 +1,9 @@
+## [1.14.0-dev.2](https://github.com/Epxec/android-patches/compare/v1.14.0-dev.1...v1.14.0-dev.2) (2026-10-01)
+
+### ✨ New Features
+
+* daylio microg support as default ([2bfdcc3](https://github.com/Epxec/android-patches/commit/2bfdcc393ae630d87c2002da2a6c2dd7063c65ef))
+
 ## [1.14.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.13.0...v1.14.0-dev.1) (2026-10-01)
 
 ### ✨ New Features
