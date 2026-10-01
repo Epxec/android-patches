@@ -140,7 +140,7 @@ private val redirectGsfLegacyPatch = replaceStringPatch(
 val elmwoodMicroGPatch = bytecodePatch(
     name = "MicroG support",
     description = "Enables Google Sign-In and GMS-dependent features via MicroG without root.",
-    default = false,
+    default = true,
 ) {
     compatibleWith(COMPATIBILITY_Elmwood)
 
