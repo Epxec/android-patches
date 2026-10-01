@@ -1,3 +1,9 @@
+## [1.14.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.13.0...v1.14.0-dev.1) (2026-10-01)
+
+### ✨ New Features
+
+* daylio better premium patch with microg ([0782e9f](https://github.com/Epxec/android-patches/commit/0782e9fba061d38cb7987c44c8603231c6d46b62))
+
 ## [1.13.0](https://github.com/Epxec/android-patches/compare/v1.12.0...v1.13.0) (2026-09-30)
 
 ### ✨ New Features
