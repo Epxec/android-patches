@@ -1,3 +1,9 @@
+## [1.15.0-dev.2](https://github.com/Epxec/android-patches/compare/v1.15.0-dev.1...v1.15.0-dev.2) (2026-10-02)
+
+### ✨ New Features
+
+* notizen update ([5346c93](https://github.com/Epxec/android-patches/commit/5346c93d8f1b337debe431d2bc9dcbdfc9a99efb))
+
 ## [1.15.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.14.0...v1.15.0-dev.1) (2026-10-02)
 
 ### ✨ New Features
