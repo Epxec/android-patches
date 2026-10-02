@@ -1,3 +1,9 @@
+## [1.15.0-dev.1](https://github.com/Epxec/android-patches/compare/v1.14.0...v1.15.0-dev.1) (2026-10-02)
+
+### ✨ New Features
+
+* notizen pro ([6c8fcd8](https://github.com/Epxec/android-patches/commit/6c8fcd8628c13d592383b8fb0bc753fe3721df27))
+
 ## [1.14.0](https://github.com/Epxec/android-patches/compare/v1.13.0...v1.14.0) (2026-10-01)
 
 ### ✨ New Features
