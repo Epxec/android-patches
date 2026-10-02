@@ -1,7 +1,5 @@
 package app.epxec.patches.notizenwidget
 
-import app.epxec.patches.notizenwidget.NotiZenPremiumReadFingerprint
-import app.epxec.patches.notizenwidget.NotiZenPremiumWriteFingerprint
 import app.epxec.patches.shared.Constants.COMPATIBILITY_NotizenWidget
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
@@ -19,11 +17,14 @@ val enablePremiumPatch = bytecodePatch(
     dependsOn(changePackageInstallerPatch())
 
     execute {
-        // ── Patch 1: tc0.a() ─────────────────────────────────────────────────
+        // ── Patch 1: we0.b()Z ────────────────────────────────────────────────
         // Force the SharedPreferences read of "premium_monthly_active" to always
-        // return true. This is the single boolean gate consumed by wh5.a()
-        // (isPremiumActive), which in turn gates PremiumFeatureGateActivity,
+        // return true. This is the single boolean gate consumed by b46.b()
+        // (hasUsablePremiumAccess), which in turn gates PremiumFeatureGateActivity,
         // PremiumWidgetConfigGateActivity, and all feature-gated UI branches.
+        //
+        // Class name was "tc0" in v0.1.1782848579; is "we0" in v0.1.1790444417.
+        // The fingerprint is version-agnostic via the "premium_monthly_active" string.
         NotiZenPremiumReadFingerprint.method.addInstructions(
             0,
             """
@@ -32,15 +33,32 @@ val enablePremiumPatch = bytecodePatch(
             """
         )
 
-        // ── Patch 2: tc0.b(Z) ────────────────────────────────────────────────
-        // No-op the SharedPreferences writer so that Google Play Billing results
-        // can never store false back into "premium_monthly_active". Without this,
-        // the billing callback in kp4.j(List) would overwrite the premium flag on
-        // every app start that fails to find an active purchase.
+        // ── Patch 2: we0.f(J)V ───────────────────────────────────────────────
+        // No-op the SharedPreferences writer that sets premium_monthly_active = false.
+        // Called by the billing callback when Google Play Billing finds no active
+        // purchase. Without this, the billing callback would overwrite the premium
+        // flag with false on every app start that fails to find a purchase.
+        //
+        // NOTE: In v0.1.1782848579 the write method was b(Z)V (boolean param).
+        //       In v0.1.1790444417+ it is f(J)V (long param — timestamp).
+        //       The fingerprint matches on J parameter to handle the new version.
         NotiZenPremiumWriteFingerprint.method.addInstructions(
             0,
             """
                 return-void
+            """
+        )
+
+        // ── Patch 3: LicenseClient.processResponse(I, Bundle) ────────────────
+        // Force the Pairip (Play Integrity API) license check response code to 0
+        // (LICENSED) so the client-side check always passes. Prevents the app from
+        // showing a paywall or closing itself after a failed Play Integrity check.
+        //
+        // Class name is non-obfuscated — stable across versions.
+        NotiZenPairIpFingerprint.method.addInstructions(
+            0,
+            """
+                const/4 p1, 0x0
             """
         )
     }
